@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-img img{
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+
+}
+
+nav div{
+    display: flex;
+}
+
+nav div ul{
+    display: flex;
+    /* margin-top: 35px; */
+}
+
+nav div ul li{
+    margin: 35px;
+}
+
+nav div ul li:hover{
+    font-weight: 600;
+    text-decoration: underline;
+    cursor:pointer;
+}
+
+button{
+    color: white;
+    background-color: rgb(80, 80, 199);
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+button:hover{
+    font-weight: 400;
+    color:rgb(86, 86, 169);
+    background-color: rgb(42, 228, 42);
+}
+
+.contact-button button{
+    margin-right: 65px;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-right-section img{
+    height: 600px;
+    float: right;
+}
+
+section div h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+section div h1 span{
+    color: rgb(68, 51, 213);
+}
+
+section div p{
+    margin-bottom: 60px;
+}
+
+
